@@ -29,5 +29,4 @@ You can find all information your need [here](https://copit.fr), you can contact
 
 *PS2: Sorry for my bad english too.*
 
-
-
+Not for commercial use.
