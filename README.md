@@ -13,7 +13,7 @@ Supreme bot extension for Google Chrome. With this bot you can cop any item you 
 
 ## Installation
 You can simply download it [here](https://chrome.google.com/webstore/detail/cop-it-supreme-bot/nnkdcekecphmmnkimhpgangidfcngdpp).
-But if you want manuel installation, go to [chrome://extensions](chrome://extensions), then enable "Developer Mode" and drag the file `CopIt.crx` (you can find it `bin` folder) on the page.
+But if you want manuel installation, go to [chrome://extensions](chrome://extensions), then enable "Developer Mode" and drag the file `CopIt.crx` (you can find it in `bin` folder) on the page.
 
 Go to the settings page and fill it with all settings you want.
 
