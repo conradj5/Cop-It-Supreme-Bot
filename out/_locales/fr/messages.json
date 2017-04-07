@@ -1,0 +1,266 @@
+{
+	"extName": {
+		"message": "Cop It - Bot Supreme",
+		"description": "The name of the extension"
+	},
+	"extDesc": {
+		"message": "Acheter n'importe quel article Supreme directement à leur sortie ou en 1 clic ! Avec mises à jour régulière.",
+		"description": "Description of the extension"
+	},
+	"notOnSupreme": {
+		"message": "Vous devez être sur une page supremenewyork.com pour démarrer le bot.",
+		"description": "Must be on supreme to start the bot"
+	},
+	"quitSupreme": {
+		"message": "Le bot ne démarrera pas à l'heure indiqué car vous avez quitté/vous n'êtes pas sur la page de supremenewyork.com.",
+		"description": "Supreme page leave when the countdown was enabled"
+	},
+	"noItemFound": {
+		"message": "Aucun article a été trouvé avec les mots-clés fournis, veuillez bien vérifier les critères remplis.",
+		"description": "No item was found with keywords"
+	},
+	"closeModal": {
+		"message": "Fermer",
+		"description": "Text for closing modal"
+	},
+	"startVal": {
+		"message": "DÉMARRER",
+		"description": "Value of start button"
+	},
+	"loader": {
+		"message": "Le bot a été demarré.",
+		"description": "Loader text on popup"
+	},
+	"settings": {
+		"message": "Réglages",
+		"description": "Settings value"
+	},
+	"documentation": {
+		"message": "Documentation",
+		"description": "Documentation value"
+	},
+	"startAt": {
+		"message": "Le bot va démarré à $hour$",
+		"description": "Hour of the bot will start",
+		"placeholders": {
+			"hour": {
+				"content": "$1",
+				"example": "12:00:45"
+			}
+		}
+	},
+	"fillDatas": {
+		"message": "Vous devez remplir vos informations personnels avant d'utiliser le bot.",
+		"description": "Error message when datas is not filled"
+	},
+	"nbKeywords": {
+		"message": "Vous avez actuellement $nb$ mots-clés enregistrés.",
+		"description": "Nombre de mots-clés enregistrés",
+		"placeholders": {
+			"nb": {
+				"content": "$1",
+				"example": "2"
+			}
+		}
+	},
+	"settingsTitle": {
+		"message": "Cop It — Paramètres",
+		"description": "Title of the settings page"
+	},
+	"navMain": {
+		"message": "Réglages",
+		"description": "Settings name in navbar"
+	},
+	"navData": {
+		"message": "Livraison/Facturation",
+		"description": "Data name in navbar"
+	},
+	"navKeywords": {
+		"message": "Mots-clés",
+		"description": "Keywords name in navbar"
+	},
+	"mainTitle": {
+		"message": "Paramètres généraux",
+		"description": "Title of the main tab"
+	},
+	"mainDesc": {
+		"message": "Une documentation sur ces paramètres est disponible <u><a href=\"https://copit.fr/fr/doc\" target=\"_blank\">ici</a></u>. (<b>A LIRE</b>)",
+		"description": "Description of the tab"
+	},
+	"params0": {
+		"message": "Activer l'extension",
+		"description": "Enable extension checkbox"
+	},
+	"params1": {
+		"message": "Vérifier le panier avant d'acheter (avec les mots-clés)",
+		"description": "Check cart before checkout"
+	},
+	"params2": {
+		"message": "Remplir page de paiement automatiquement et la validé",
+		"description": "Fill checkout page and submit it"
+	},
+	"params3": {
+		"message": "Ressaie si il y a une erreur au paiement (le paramètre précédent doit être activé)",
+		"description": "Retry when payment failed"
+	},
+	"params4": {
+		"message": "Si la taille demandé n'est plus disponible, prendre la suivante (avec les mots-clés)",
+		"description": "If size is sold-out, choose the next one"
+	},
+	"params5": {
+		"message": "Heure de démarrage (format: hh:mm:ss, 0 = désactivé)",
+		"description": "Start time"
+	},
+	"params6": {
+		"message": "Délai d'attente pour ressayer de trouver les articles lié aux mots clés si aucun n'a été trouvé (0 = désactivé)",
+		"description": "If no items found with keywords, retry with this delay"
+	},
+	"params7": {
+		"message": "Supprimer le captcha",
+		"description": "Remove reCaptcha on checkout page"
+	},
+	"submit": {
+		"message": "Valider",
+		"description": "Submit form"
+	},
+	"paramsSuccess": {
+		"message": "Les paramètres ont été modifiées.",
+		"description": "When params has been updated"
+	},
+	"dataTitle": {
+		"message": "Données personnelles",
+		"description": "Billing/shipping datas"
+	},
+	"dataShipping": {
+		"message": "Adresse d'envoi/facturation",
+		"description": "Shipping address"
+	},
+	"dataBilling": {
+		"message": "Informations de paiement",
+		"description": "Billing address"
+	},
+	"data0": {
+		"message": "Nom et prénom",
+		"description": "Full name"
+	},
+	"data1": {
+		"message": "Email",
+		"description": "Email address"
+	},
+	"data2": {
+		"message": "Téléphone",
+		"description": "Phone number"
+	},
+	"data3": {
+		"message": "Adresse",
+		"description": "Address, street and number"
+	},
+	"data4": {
+		"message": "Ville",
+		"description": "City"
+	},
+	"data5": {
+		"message": "Code Postal",
+		"description": "Zip Code"
+	},
+	"data6": {
+		"message": "Pays",
+		"description": "Country"
+	},
+	"data7": {
+		"message": "Type de carte",
+		"description": "Card brand/type"
+	},
+	"data8": {
+		"message": "Numéro de carte",
+		"description": "Card number"
+	},
+	"data9": {
+		"message": "Mois / Année d'expiration",
+		"description": "Month and year of expiration of the card"
+	},
+	"data10": {
+		"message": "CVV",
+		"description": "CVV number"
+	},
+	"data11": {
+		"message": " J'accepte les <u><a href=\"https://copit.fr/fr/cgu\" target=\"_blank\">termes et conditions</a></u> de Copit.fr",
+		"description": "Accept TOS"
+	},
+	"dataErrorTos": {
+		"message": "Vous devez accepter les conditions d'utilisation avant de renseigner vos informations.",
+		"description": "Need accept tos before submit"
+	},
+	"dataSuccess": {
+		"message": "Les informations ont été modifiées.",
+		"description": "Infos has been updated"
+	},
+	"dataEdit": {
+		"message": "Editer",
+		"description": "Value of edit data button"
+	},
+	"keywordsDesc": {
+		"message": "Une documentation sur le système de <i>mots-clés</i> est disponible sur <u><a href=\"https://copit.fr/fr/doc\" target=\"_blank\">notre site</a></u>.",
+		"description": "Keywords desc with URL of docs"
+	},
+	"noMatter": {
+		"message": "Pas d'importance",
+		"description": "No matter text on keywords size"
+	},
+	"emptyField": {
+		"message": "- Le champ $field$ est vide.<br/>",
+		"description": "Empty field with field name",
+		"placeholders": {
+			"field": {
+				"content": "$1",
+				"example": "card_type"
+			}
+		}
+	},
+	"keywordsUpdated": {
+		"message": "Les informations de mot-clé ont été modifiées.",
+		"description": "kw has been updated" 
+	},
+	"category": {
+		"message": "Catégories",
+		"description": "Category of the item"
+	},
+	"keywordsField": {
+		"message": "Mots clés <i>(séparé d'un espace)</i>",
+		"description": "Keywords field separate by space"
+	},
+	"color": {
+		"message": "Couleur",
+		"description:": "Color word"
+	},
+	"size": {
+		"message": "Taille",
+		"description": "Size word"
+	},
+	"keywordsEdit": {
+		"message": "Valider",
+		"description": "Text of keyword submit button"
+	},
+	"instantBuy": {
+		"message": "achat direct",
+		"description": "Text on instant buy button"
+	},
+	"confirmDialog": {
+		"message": "Confirmez-vous l'achat instantanée de l'article:\n\n$name$, taille $size$\n\nPour le prix de $price$€ ?\n\n(Le paramètre \"Remplir page de paiement automatiquement et la validé\" doit être activé)",
+		"description": "Confirm dialog when click on instant buy button",
+		"placeholders": {
+			"name": {
+				"content": "$1",
+				"example": "Box Logo Tee"
+			},
+			"size": {
+				"content": "$2",
+				"example": "Medium"
+			},
+			"price": {
+				"content": "$3",
+				"example": "138"
+			}
+		}
+	}
+}

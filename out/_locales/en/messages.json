@@ -1,0 +1,266 @@
+{
+	"extName": {
+		"message": "Cop It - Supreme Bot",
+		"description": "The name of the extension"
+	},
+	"extDesc": {
+		"message": "Purchase any item with only 1 click when they are released! With regular updates.",
+		"description": "Description of the extension"
+	},
+	"notOnSupreme": {
+		"message": "You must be on supremenewyork.com to start the bot",
+		"description": "Must be on supreme to start the bot"
+	},
+	"quitSupreme": {
+		"message": "Bot will not start because you left supremenewyork.com page.",
+		"description": "Supreme page leave when the countdown was enabled"
+	},
+	"noItemFound": {
+		"message": "No item found with provided keywords, please check them.",
+		"description": "No item was found with keywords"
+	},
+	"closeModal": {
+		"message": "Close",
+		"description": "Text for closing modal"
+	},
+	"startVal": {
+		"message": "START",
+		"description": "Value of start button"
+	},
+	"loader": {
+		"message": "Bot has been started.",
+		"description": "Loader text on popup"
+	},
+	"settings": {
+		"message": "Settings",
+		"description": "Settings value"
+	},
+	"documentation": {
+		"message": "Documentation",
+		"description": "Documentation value"
+	},
+	"startAt": {
+		"message": "Bot will start at $hour$",
+		"description": "Hour of the bot will start",
+		"placeholders": {
+			"hour": {
+				"content": "$1",
+				"example": "12:00:45"
+			}
+		}
+	},
+	"fillDatas": {
+		"message": "You must fill shipping/billing information.",
+		"description": "Error message when datas is not filled"
+	},
+	"nbKeywords": {
+		"message": "You have set $nb$ keywords.",
+		"description": "Number of keywords set",
+		"placeholders": {
+			"nb": {
+				"content": "$1",
+				"example": "2"
+			}
+		}
+	},
+	"settingsTitle": {
+		"message": "Cop It — Settings",
+		"description": "Title of the settings page"
+	},
+	"navMain": {
+		"message": "Settings",
+		"description": "Settings name in navbar"
+	},
+	"navData": {
+		"message": "Shipping/Billing",
+		"description": "Data name in navbar"
+	},
+	"navKeywords": {
+		"message": "Keywords",
+		"description": "Keywords name in navbar"
+	},
+	"mainTitle": {
+		"message": "Main settings",
+		"description": "Title of the main tab"
+	},
+	"mainDesc": {
+		"message": "Documentation is available <u><a href=\"https://copit.fr/en/doc\" target=\"_blank\">here</a></u>. (<b>MUST READ</b>)",
+		"description": "Description of the tab"
+	},
+	"params0": {
+		"message": "Enable extension",
+		"description": "Enable extension checkbox"
+	},
+	"params1": {
+		"message": "Check cart before checkout (with keywords)",
+		"description": "Check cart before checkout"
+	},
+	"params2": {
+		"message": "Auto-fill checkout page and submit it",
+		"description": "Fill checkout page and submit it"
+	},
+	"params3": {
+		"message": "Retry when payment failed (the previous parameter must be enabled)",
+		"description": "Retry when payment failed"
+	},
+	"params4": {
+		"message": "If wanted size is sold-out, choose the next one (with keywords)",
+		"description": "If size is sold-out, choose the next one"
+	},
+	"params5": {
+		"message": "Start time (format: hh:mm:ss, 0 = disabled, hour format is 0-24)",
+		"description": "Start time"
+	},
+	"params6": {
+		"message": "If no items found with keywords, retry in X ms (0 = disabled)",
+		"description": "If no items found with keywords, retry with this delay"
+	},
+	"params7": {
+		"message": "Remove reCaptcha on checkout page",
+		"description": "Remove reCaptcha on checkout page"
+	},
+	"submit": {
+		"message": "Submit",
+		"description": "Submit form"
+	},
+	"paramsSuccess": {
+		"message": "Settings has been updated",
+		"description": "When params has been updated"
+	},
+	"dataTitle": {
+		"message": "Billing/Shipping informations",
+		"description": "Billing/shipping datas"
+	},
+	"dataShipping": {
+		"message": "Shipping address",
+		"description": "Shipping address"
+	},
+	"dataBilling": {
+		"message": "Billing address",
+		"description": "Billing address"
+	},
+	"data0": {
+		"message": "Full name",
+		"description": "Full name"
+	},
+	"data1": {
+		"message": "Email address",
+		"description": "Email address"
+	},
+	"data2": {
+		"message": "Phone number",
+		"description": "Phone number"
+	},
+	"data3": {
+		"message": "Address",
+		"description": "Address, street and number"
+	},
+	"data4": {
+		"message": "City",
+		"description": "City"
+	},
+	"data5": {
+		"message": "Zip code",
+		"description": "Zip Code"
+	},
+	"data6": {
+		"message": "Country",
+		"description": "Country"
+	},
+	"data7": {
+		"message": "Card tyoe",
+		"description": "Card brand/type"
+	},
+	"data8": {
+		"message": "Card number",
+		"description": "Card number"
+	},
+	"data9": {
+		"message": "Card expiration",
+		"description": "Month and year of expiration of the card"
+	},
+	"data10": {
+		"message": "CVV number",
+		"description": "CVV number"
+	},
+	"data11": {
+		"message": " I agree with Copit.fr <u><a href=\"https://copit.fr/en/cgu\" target=\"_blank\">terms</a></u>",
+		"description": "Accept TOS"
+	},
+	"dataErrorTos": {
+		"message": "You must agree with Copit.fr terms before submit.",
+		"description": "Need accept tos before submit"
+	},
+	"dataSuccess": {
+		"message": "Informations has been updated",
+		"description": "Infos has been updated"
+	},
+	"dataEdit": {
+		"message": "Edit",
+		"description": "Value of edit data button"
+	},
+	"keywordsDesc": {
+		"message": "Documentation about <i>keywords</i> is available <u><a href=\"https://copit.fr/en/doc\" target=\"_blank\">here</a></u>.",
+		"description": "Keywords desc with URL of docs"
+	},
+	"noMatter": {
+		"message": "No matter",
+		"description": "No matter text on keywords size"
+	},
+	"emptyField": {
+		"message": "- Field $field$ is empty.<br/>",
+		"description": "Empty field with field name",
+		"placeholders": {
+			"field": {
+				"content": "$1",
+				"example": "card_type"
+			}
+		}
+	},
+	"keywordsUpdated": {
+		"message": "Keywords data has been updated.",
+		"description": "kw has been updated" 
+	},
+	"category": {
+		"message": "Category",
+		"description": "Category of the item"
+	},
+	"keywordsField": {
+		"message": "Keywords <i>(Separated from a space)</i>",
+		"description": "Keywords field separate by space"
+	},
+	"color": {
+		"message": "Color",
+		"description:": "Color word"
+	},
+	"size": {
+		"message": "Size",
+		"description": "Size word"
+	},
+	"keywordsEdit": {
+		"message": "Submit",
+		"description": "Text of keyword submit button"
+	},
+	"instantBuy": {
+		"message": "instant buy",
+		"description": "Text on instant buy button"
+	},
+	"confirmDialog": {
+		"message": "Do you confirm the instant purchase of:\n\n$name$, size: $size$\n\nFor the price of $price$ ?\n\n(The parameter \"Auto-fill chekcout page and submit it\" must be enabled)",
+		"description": "Confirm dialog when click on instant buy button",
+		"placeholders": {
+			"name": {
+				"content": "$1",
+				"example": "Box Logo Tee"
+			},
+			"size": {
+				"content": "$2",
+				"example": "Medium"
+			},
+			"price": {
+				"content": "$3",
+				"example": "138"
+			}
+		}
+	}
+}

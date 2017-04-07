@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Cop It</title>
+
+    <script src="/dist/js/jquery-3.1.1.min.js"></script>
+    <script src="/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/dist/css/style.css">
+</head>
+<body style="background-color: #f7f7f7;">
+    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse" style="padding-bottom: 5px;padding-top: 5px;">
+      <a class="navbar-brand" href="https://copit.fr" target="_blank"><img src="/images/logo.png" height="30" width="90"></a>
+      <sup class="version"></sup>
+    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-sm-3 col-md-2 hidden-xs-down sidebar">
+          <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="#main"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#data"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#keywords"></a>
+            </li>
+          </ul>
+        </nav>
+
+        <main class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3" style="background-color: #f7f7f7;">
+            <div class="invisible" id="main">
+                <h1></h1>
+                <p></p>
+                <div class="row">
+                    <div class="col-lg-8">
+                        <table class="table table-bordered table-sm table-striped" style="margin-top: 20px;">
+                            <tbody>
+                                <tr><td></td><td style="text-align: center;"><input type="checkbox" id="enabled" /></td></tr>
+                                <tr><td></td><td style="text-align: center;"><input type="checkbox" id="checkCart" /></td></tr>
+                                <tr><td></td><td style="text-align: center;"><input type="checkbox" id="autoFill" /></td></tr>
+                                <tr><td></i></td><td style="text-align: center;"><input type="checkbox" id="retryOnFail" /></td></tr>
+                                <tr><td></td><td style="text-align: center;"><input type="checkbox" id="nextSize" /></td></tr>
+                                <tr><td></td><td><input type="text" class="form-control" id="startTime" value="hh:mm:ss" /></td></tr>
+                                <tr><td></td>
+                                <td>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" value="0" id="retrykeyword" />
+                                        <span class="input-group-addon">ms</span>
+                                    </div>
+                                </td></tr>
+                                <tr><td></td><td style="text-align: center;"><input type="checkbox" id="removeCaptcha" /></td></tr>
+                            </tbody>
+                        </table>
+                        <div class="form-group" style="text-align: center;">
+                            <button type="submit" class="btn btn-info" id="editParams"></button>    
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            <div class="invisible" id="data">
+                <h1></h1>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h4></h4>
+                        <table class="table table-bordered table-sm table-striped" style="margin-top: 20px;">
+                            <tbody>
+                                <tr><td></td><td><input class="form-control" id="name" type="text"/></td></tr>
+                                <tr><td></td><td><input class="form-control" id="email" type="email"/></td></tr>
+                                <tr><td></td><td><input class="form-control" id="phone" type="text"/></td></tr>
+                                <tr><td></td><td><input type="text" class="form-control" id="address"/></td></tr>
+                                <tr><td></td><td><input class="form-control" id="city" type="text"/></td></tr>
+                                <tr><td></td><td><input class="form-control" id="zip" type="text"/></td></tr>
+                                <tr><td></td><td>
+                                    <select class="form-control" id="country"">
+                                        <option value="GB">UK</option>
+                                        <option value="NB">UK (N. IRELAND)</option>
+                                        <option value="">-</option>
+                                        <option value="AT">AUSTRIA</option>
+                                        <option value="BY">BELARUS</option>
+                                        <option value="BE">BELGIUM</option>
+                                        <option value="BG">BULGARIA</option>
+                                        <option value="HR">CROATIA</option>
+                                        <option value="CZ">CZECH REPUBLIC</option>
+                                        <option value="DK">DENMARK</option>
+                                        <option value="EE">ESTONIA</option>
+                                        <option value="FI">FINLAND</option>
+                                        <option value="FR" selected="selected">FRANCE</option>
+                                        <option value="DE">GERMANY</option>
+                                        <option value="GR">GREECE</option>
+                                        <option value="HU">HUNGARY</option>
+                                        <option value="IS">ICELAND</option>
+                                        <option value="IE">IRELAND</option>
+                                        <option value="IT">ITALY</option>
+                                        <option value="LV">LATVIA</option>
+                                        <option value="LT">LITHUANIA</option>
+                                        <option value="LU">LUXEMBOURG</option>
+                                        <option value="MC">MONACO</option>
+                                        <option value="NL">NETHERLANDS</option>
+                                        <option value="NO">NORWAY</option>
+                                        <option value="PL">POLAND</option>
+                                        <option value="PT">PORTUGAL</option>
+                                        <option value="RO">ROMANIA</option>
+                                        <option value="RU">RUSSIA</option>
+                                        <option value="SK">SLOVAKIA</option>
+                                        <option value="SI">SLOVENIA</option>
+                                        <option value="ES">SPAIN</option>
+                                        <option value="SE">SWEDEN</option>
+                                        <option value="CH">SWITZERLAND</option>
+                                        <option value="TR">TURKEY</option>
+                                    </select>
+                                </td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-lg-6">
+                        <h4></h4>
+                        <table class="table table-bordered table-sm table-striped" style="margin-top: 20px;">
+                            <tbody>
+                                <tr><td></td><td>
+                                    <select class="form-control" id="card_type">
+                                        <option value="visa">Visa</option>
+                                        <option value="american_express">American Express</option>
+                                        <option value="master">Mastercard</option>
+                                    </select>
+                                </td></tr>
+                                <tr><td></td><td><input class="form-control" id="card_number" type="text"/></td></tr>
+                                <tr><td></td><td>
+                                    <select style="width: 49%;" class="form-control" id="card_month"></select>
+                                    <select style="width: 49%;" class="form-control" id="card_year"></select>
+                                </td></tr>
+                                <tr><td></td><td><input class="form-control" id="cvv" type="text"/></td></tr>
+                                <tr><td style="text-align: center;"><input type="checkbox" id="cgu" style="margin-top: 10px;"></td><td style="text-align: center;"></td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="form-group" style="text-align: center;">
+                        <button type="submit" class="btn btn-info" id="edit"></button>
+                </div>
+            </div>
+
+            <div class="invisible" id="keywords">
+                <h1></h1>
+                <p></p>
+                <div class="row" id="keywordsForm">
+                    <div class="col-lg-6" id="addKeywordForm">
+                        <button class="btn btn-primary" id="addKeywordButton" style="margin: 50px 50%">+</button>
+                    </div>
+                </div>
+                <div class="form-group" style="text-align: center;">
+                    <button type="submit" class="btn btn-info" id="editKeyword"></button>    
+                </div>
+            </div>
+        </main>
+      </div>
+    </div>
+
+    <div class="modal fade " id="important-msg" tabindex="-1" role="dialog" aria-labelledby="important-msg-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="important-msg-label">Notification</h4>
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                </div>
+                <div class="modal-body">
+                    <p id="modal-text"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn" id="close-modal" data-dismiss="modal"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/dist/js/settings.js"></script>
+</body>
+</html>

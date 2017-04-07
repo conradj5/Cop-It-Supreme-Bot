@@ -1,0 +1,18 @@
+{
+  "name": "CopIt",
+  "version": "1.0.9",
+  "description": "Supreme bot as chrome extens",
+  "dependencies": {
+    "gulp": "~3.9.1",
+    "gulp-concat": "~2.6.1",
+    "gulp-htmlmin": "~3.0.0",
+    "gulp-clean-css": "~3.0.4",
+    "gulp-crx-pack": "~1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carl1to/Cop-It-Supreme-Bot"
+  },
+  "author": "Carl1to",
+  "license": "MIT"
+}
